@@ -37,19 +37,19 @@ Follow Raylib installation steps from:
 git clone https://github.com/your-username/tetris-raylib.git
 cd tetris-raylib
 ```
-# Build and Run
-# On Linux / macOS:
+## Build and Run
+## On Linux / macOS:
 ```bash
 g++ main.cpp -o tetris -lraylib -lGL -lm -lpthread -ldl -lrt -lX11
 ./tetris
 ```
-# On Windows (MinGW):
+## On Windows (MinGW):
 ```bash
 g++ main.cpp -o tetris.exe -lraylib -lopengl32 -lgdi32 -lwinmm
 ./tetris.exe
 ```
 
-# 📚 Learnings
+## 📚 Learnings
 - **This project helped understand:**
 - **Game loop architecture**
 = **Real-time graphics with Raylib**
@@ -57,6 +57,6 @@ g++ main.cpp -o tetris.exe -lraylib -lopengl32 -lgdi32 -lwinmm
 - **Collision detection logic**
 - **Input handling in C++**
 
-  # 📄 License
+  ## 📄 License
 - **This project is licensed under the MIT License.**
 - **Feel free to use, modify, or distribute for personal and educational purposes.**
